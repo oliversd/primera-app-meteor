@@ -1,1 +1,41 @@
 /* CSS declarations go here */
+body {
+  font-family: sans-serif;
+  background-color: #2196F3;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+
+  font-size: 14px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  min-height: 100%;
+  background: white;
+}
+
+header {
+  background: #8BC34A;
+  padding: 20px 15px 15px 15px;
+  position: relative;
+  color:#FFF;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+.peliculas li {
+  list-style: none;
+  margin-bottom: 2em;
+  padding-bottom:1em;
+  border-bottom: 1px solid #ccc;
+  width: 90%;
+}

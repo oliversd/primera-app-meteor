@@ -1,14 +1,21 @@
 <head>
-  <title>superpeliculas</title>
+  <title>Super Películas</title>
 </head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
+  <div class="container">
+    <header>
+      <h1>Super Películas</h1>
+    </header>
 
-  {{> hello}}
+    <ul class="peliculas">
+      {{#each peliculas}}
+        {{> pelicula}}
+      {{/each}}
+    </ul>
+  </div>
 </body>
 
-<template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
+<template name="pelicula">
+  <li>{{nombre}}</li>
 </template>
