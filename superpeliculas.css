@@ -39,3 +39,51 @@ h1 {
   border-bottom: 1px solid #ccc;
   width: 90%;
 }
+
+form {
+  margin-top: 10px;
+  position: relative;
+  width: 80%;
+  margin-left: 39px;
+  margin-bottom: 20px;
+}
+
+.nueva-pelicula input {
+  box-sizing: border-box;
+  padding: 10px 0;
+  background: transparent;
+  width: 100%;
+  padding-right: 80px;
+  padding-left:20px;
+  font-size: 1em;
+  margin-bottom:10px;
+  box-shadow: none;
+  border:1px solid #ccc;
+}
+
+.nueva-pelicula input:focus{
+  outline: 0;
+  border-color: green;
+}
+
+.nueva-pelicula button {
+  display: block;
+  border: none;
+  padding: 8px;
+  background-color: #8BC34A;
+  color: #FFF;
+  font-size: 1em;
+  text-shadow: none;
+}
+
+.pull-right {
+  float:right;
+}
+
+.gris {
+  color:#888;
+}
+
+.director {
+  font-size:0.8em;
+}
